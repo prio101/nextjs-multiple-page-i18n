@@ -32,3 +32,17 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+
+---
+
+# Steps:
+
+- Check the `[page].js` under the `/pages` folder.
+- There is a locale switcher in `header.jsx`.
+- This switcher gets the locale and sets the current locale and query params for the **next-router** .
+- Over at the `[page].js` based over the Current Locale set by Next Router it fetches the proper translation from the `i18n.js` file and shows it.
+
+- This is a SSG implementation , Created at 12/21/2021 
+
